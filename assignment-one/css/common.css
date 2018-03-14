@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+ul li 
+{
+	display: inline-block;
+	position: relative;
+} */
+
+body 
+{
+	overflow: hidden;
+}
+
+
+.post { 
+	width: 635px; 
+	height: 980px;
+	position: relative;
+}
+
+.post .banner_one
+{
+	background:url('../img/tref-2200x0-c-default.jpg') no-repeat;
+	background-size: contain;
+	height: 100%;
+}
+
+.post .caption_text
+{
+	position: absolute;
+	bottom: 50%;
+	left: 20%;
+}
+
+td{
+	vertical-align: top;
+}
